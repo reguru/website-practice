@@ -41,6 +41,31 @@ a {
   text-decoration: none;
 }
 
+.main-visual {
+  background-image: url(img/mv.png);
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.main-title {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.main-title h1 {
+  font-size: 64px;
+  color: #fafafa;
+}
+
+.main-title p {
+  font-size: 20px;
+  color: #fafafa;
+  margin-top: 10px
+}
+
 #portfolio {
   height: 300px;
 }
