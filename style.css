@@ -93,7 +93,7 @@ a {
   background-color: #ec715f;
 }
 
-.portfolio-text {
+.top-text {
   text-align: center;
   font-size: 16px;
   color: #000000;
@@ -162,7 +162,43 @@ a {
 /*-------------------------------------------------------------------------------*/
 
 #feature {
-  height: 300px;
+  width: 100%;
+}
+
+.feature-container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.feature-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+}
+
+.feature-strength {
+  width: 320px;
+  margin-right: 10px;
+}
+
+.feature-strength:last-child {
+  margin-right: 0px;
+}
+
+.strength-icon {
+  font-size: 60px;
+  text-align: center;
+}
+
+.strength-icon p {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.strength-text {
+  font-size: 16px;
+  color: #000000;
 }
 
 #profile {
